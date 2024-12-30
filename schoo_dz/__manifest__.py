@@ -9,6 +9,10 @@
     'category': 'Education',
     'depends': ['base'],
     'data': [
+        # 'security/ir.model.access.csv',
+        # 'views/nav.xml',
+        'views/student.xml',
+        'views/tetcher.xml'
     ],
     'installable': True,
     'application': True,

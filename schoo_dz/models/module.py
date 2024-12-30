@@ -1,7 +1,7 @@
 from odoo import fields , models
 
 class student(models.model):
-    _name = "student"
+    _name = "school.student"
     log_access = False
 
     name = fields.Char(string='Name' ,  require=True)
@@ -11,7 +11,7 @@ class student(models.model):
 
 
 class Teacher(models.model):
-    _name = "teacher"
+    _name = "school.teacher"
     log_access = False
 
     name = fields.Char(string='Name', require=True)
